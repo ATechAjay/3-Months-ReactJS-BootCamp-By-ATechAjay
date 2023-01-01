@@ -8,6 +8,7 @@
 
 h1 {
   font-size: 9rem;
+  text-align: center;
 }
 
 button {
@@ -18,8 +19,24 @@ button {
   border: none;
   cursor: pointer;
   border-radius: 10px;
+  /* margin-left: 50px; */
 }
 
 button:active {
   transform: scale(.98);
+}
+
+
+
+.parent {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn {
+  display: flex;
+  gap: 50px;
 }

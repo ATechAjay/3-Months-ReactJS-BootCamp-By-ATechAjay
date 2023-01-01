@@ -8,10 +8,16 @@ function App() {
   function increase() {
     setCount(count + 1)
   }
+  function decrease() {
+    setCount(count - 1)
+  }
   return (
-    <div>
+    <div className='parent'>
       <h1>{count}</h1>
-      <button onClick={increase}>Count</button>
+      <div className='btn'>
+        <button onClick={decrease}>Decrease</button>
+        <button onClick={increase}>Increase</button>
+      </div>
     </div>
   )
 }

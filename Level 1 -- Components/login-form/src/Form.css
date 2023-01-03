@@ -1,0 +1,109 @@
+.form {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.top {
+  text-align: center;
+}
+.top h2 {
+  font-size: 3rem;
+}
+.line {
+  display: inline-block;
+  text-align: center;
+  height: 3px;
+  width: 6rem;
+  background: #fff;
+  background: linear-gradient(to right, #8e2de2, #4a00e0);
+  margin: 1.2rem 0;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.8rem;
+  margin-bottom: 1.2rem;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+label {
+  font-size: 1.8rem;
+}
+p {
+  font-size: 1.6rem;
+}
+input {
+  border-radius: 100rem;
+  padding: 0.6rem;
+  outline: none;
+  border: none;
+  background: rgba(75, 0, 224, 0.05);
+  font-size: 2rem;
+}
+
+input:focus {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.email,
+.password,
+.check {
+  display: flex;
+  flex-direction: column;
+}
+.email,
+.password {
+  gap: 1rem;
+}
+.check {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.check-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+button {
+  background: linear-gradient(to right, #8e2de2, #4a00e0);
+  color: #fff;
+  padding: 1rem 0;
+  font-size: 2rem;
+  border-radius: 100rem;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  letter-spacing: 1px;
+  transition: all 0.2s;
+}
+button:hover {
+  background: linear-gradient(
+    to right,
+    rgba(141, 45, 226, 0.9),
+    rgba(75, 0, 224, 0.9)
+  );
+}
+.terms-condition {
+  display: flex;
+  justify-content: space-between;
+}
+
+.terms-condition a,
+.check a {
+  color: rgba(75, 0, 224, 0.9);
+  font-size: 1.6rem;
+}
+
+.social-links a {
+  font-size: 1.8rem;
+}

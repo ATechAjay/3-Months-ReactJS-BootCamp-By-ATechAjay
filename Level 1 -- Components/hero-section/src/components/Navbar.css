@@ -1,0 +1,48 @@
+.navbar {
+  padding: 0.3rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__logo {
+  height: 4rem;
+}
+
+.navbar__links--container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.navbar__links--container li {
+  padding: 0.5rem 1rem;
+  list-style: none;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.navbar__links--container li::after {
+  position: absolute;
+  content: "";
+  height: 1.5px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background: #000;
+  transform: translateX(-110%);
+  transition: all 0.3s;
+}
+
+.navbar__links--container li:hover:after {
+  transform: translateX(0);
+}
+.navbar__links--container li a:link,
+.navbar__links--container li a:visited {
+  color: #000000;
+  font-size: 1.8rem;
+  text-decoration: none;
+  font-family: consolas;
+  text-transform: uppercase;
+  transition: all 0.1s;
+  transition: all 0.2s;
+}

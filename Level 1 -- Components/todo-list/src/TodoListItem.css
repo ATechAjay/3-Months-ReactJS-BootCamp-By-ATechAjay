@@ -1,0 +1,30 @@
+.todo-list {
+  background: rgb(88, 88, 88);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0.6rem;
+  gap: 1.2rem;
+}
+.todo-list--date {
+  padding-left: 1rem;
+  font-size: 1.6rem;
+}
+
+.todo-list-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+}
+.todo-list-info h2 {
+  font-size: 2rem;
+}
+
+.todo-list--price {
+  background: green;
+  font-size: 1.8rem;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  border: 3px solid #fff;
+}

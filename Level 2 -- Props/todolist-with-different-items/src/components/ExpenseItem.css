@@ -1,0 +1,29 @@
+.expense__item {
+  background: dodgerblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.2rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.1);
+}
+.expense__item--detail {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  align-items: center;
+}
+
+.expense__item--detail h2 {
+  font-size: 2rem;
+}
+.expense__item--price {
+  background: green;
+  padding: 1rem 2rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  border-radius: 1rem;
+  border: 4px solid #fff;
+}

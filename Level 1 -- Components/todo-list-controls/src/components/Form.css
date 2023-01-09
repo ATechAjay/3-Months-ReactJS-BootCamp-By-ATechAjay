@@ -2,6 +2,7 @@
   align-items: flex-end;
   padding: 2rem;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 3rem;
   background: dodgerblue;
@@ -50,7 +51,6 @@
 @media (max-width: 400px) {
   .form__controls--container {
     align-items: center;
-    justify-content: center;
   }
 
   .input__container,

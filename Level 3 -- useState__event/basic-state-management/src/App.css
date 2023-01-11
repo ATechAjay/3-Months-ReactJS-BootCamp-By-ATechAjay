@@ -1,0 +1,37 @@
+#root {
+  width: 50%;
+  margin: 3rem 0;
+}
+.container {
+  background: dodgerblue;
+}
+.container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.container h1 {
+  text-align: center;
+  font-size: 3rem;
+  padding: 1rem 0;
+  background: #e89700;
+  color: #000;
+}
+
+.container input {
+  border-radius: 100rem;
+  border: none;
+}
+button {
+  outline: none;
+  border: none;
+  opacity: 1;
+  transition: all 0.2s;
+  border-radius: 10rem;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+button:active {
+  transform: scale(0.98);
+}

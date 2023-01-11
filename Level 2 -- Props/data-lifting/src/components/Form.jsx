@@ -19,7 +19,7 @@ function Form(props) {
 
     // Passing the below object to the 'App' component(data lifting).
     // i.e. passing data from child to parent component.
-    // We stll use 'props' to pass this data to the parent component.
+    // We still use 'props' to pass this data to the parent component.
     const filledData = {
       title: title,
       price: price,

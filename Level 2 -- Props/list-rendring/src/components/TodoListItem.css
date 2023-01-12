@@ -1,0 +1,28 @@
+.todo__list {
+  background: rgb(88, 88, 88);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0.6rem;
+  gap: 1.2rem;
+  padding: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.todo__list--info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+}
+.todo__list--info h2 {
+  font-size: 2rem;
+}
+
+.todo__list--price {
+  background: green;
+  font-size: 1.8rem;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  border: 3px solid #fff;
+}

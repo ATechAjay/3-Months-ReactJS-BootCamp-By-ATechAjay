@@ -1,0 +1,51 @@
+.todo__list {
+  background-color: #242424;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.2rem;
+  padding: 2rem;
+  margin: 1rem 0;
+}
+
+.todo__list--info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+}
+.todo__list--info h2 {
+  font-size: 2rem;
+}
+
+.todo__list--price {
+  background: green;
+  font-size: 1.8rem;
+  padding: 1rem 2rem;
+  border-radius: 100rem;
+  border: 3px solid #fff;
+  font-weight: bold;
+}
+
+@media (max-width: 500px) {
+  .todo__list--info h2 {
+    font-size: 1.6rem;
+  }
+
+  .todo__list--date {
+    padding: 0.8rem;
+    border: 2px solid #fff;
+  }
+}
+
+@media (max-width: 420px) {
+  .todo__list--info {
+    flex-direction: column;
+    gap: 1.8rem;
+    justify-content: center;
+  }
+
+  .todo__list--info{
+    justify-content: center;
+  }
+}

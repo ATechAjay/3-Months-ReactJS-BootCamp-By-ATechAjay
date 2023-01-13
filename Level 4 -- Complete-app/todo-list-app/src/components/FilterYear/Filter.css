@@ -1,0 +1,16 @@
+.filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter label {
+  font-size: 1.8rem;
+}
+
+.filter select {
+  padding: 1rem 2rem;
+  border-radius: .8rem;
+  cursor: pointer;
+  outline: none;
+}

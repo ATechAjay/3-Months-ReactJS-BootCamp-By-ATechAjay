@@ -1,0 +1,11 @@
+.todolist__container {
+  margin: 2rem 0;
+  background: rgb(0, 0, 0);
+  padding: 2rem;
+}
+
+.item_not__Found {
+  font-size: 3rem;
+  text-align: center;
+  padding: 1rem 0;
+}

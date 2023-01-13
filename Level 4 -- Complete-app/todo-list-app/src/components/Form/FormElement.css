@@ -1,0 +1,61 @@
+.form__controls--container {
+  align-items: flex-end;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+  background: dodgerblue;
+}
+
+.input__container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.input__container label {
+  font-size: 1.6rem;
+}
+
+.input__container input {
+  font-size: 2rem;
+  border: none;
+  padding: 1rem;
+  outline: none;
+  border-radius: 100rem;
+}
+.input__container input:focus {
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+}
+.btn__container,
+.input__container {
+  min-width: 20rem;
+}
+.btn__container button {
+  padding: 1rem 2rem;
+  font-size: 2.5rem;
+  border-radius: 100rem;
+  background: purple;
+  color: #fff;
+  cursor: pointer;
+  width: 100%;
+  transition: all 0.2s;
+  border: 2px solid #fff;
+}
+.btn__container button:active {
+  transform: scale(0.98);
+}
+.btn__container button:hover {
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 400px) {
+  .form__controls--container {
+    align-items: center;
+  }
+
+  .input__container,
+  .btn__container {
+    width: 100%;
+  }
+}

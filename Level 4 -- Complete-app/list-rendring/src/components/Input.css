@@ -1,0 +1,40 @@
+.input__container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  background: purple;
+  padding: 2rem;
+}
+.input__container--item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  font-size: 1.8rem;
+}
+
+.input__container--item input {
+  font-size: inherit;
+  padding: 1rem;
+  outline: none;
+  border: none;
+}
+
+.btn {
+  padding: 1.6rem;
+  font-size: 2rem;
+  margin-top: 2.5rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background: #000;
+  color: #fff;
+  transition: all 0.2s;
+}
+
+.btn:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.btn:active{
+  transform: scale(.98);
+}

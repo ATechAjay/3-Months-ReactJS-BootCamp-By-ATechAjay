@@ -1,0 +1,10 @@
+.output__container {
+  background: green;
+  padding: 2rem;
+}
+.output__container--output {
+  border: 1px solid #fff;
+  padding: 1rem;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
